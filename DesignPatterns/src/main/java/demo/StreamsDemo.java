@@ -1,3 +1,5 @@
+package demo;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -23,12 +25,22 @@ public class StreamsDemo {
         //partitionOddEven();
         //parallelStreamIncorrect();
         //complexFiltering();
-        dataAggregation();
-
+        //dataAggregation();
+        //TODO
+        /*13. Infinite Streams
+        Write a stream pipeline that generates the Fibonacci
+        sequence and prints the first 10 numbers.*/
 
     }
 
-    /*Given a List<Transaction> with fields amount and type, compute:
+
+
+    /*
+    Given a list of file paths (as List<String>), read all lines
+    from these files and collect all unique words into a Set<String>.*/
+
+
+    /*Given a List<demo.Transaction> with fields amount and type, compute:
         *The total sum of all transactions
         *The sum of transactions grouped by type
         *The average transaction amount*/
@@ -55,7 +67,7 @@ public class StreamsDemo {
 
     }
 
-    /*Given a list of Person objects with name and age, use a stream to:
+    /*Given a list of demo.Person objects with name and age, use a stream to:
         * Filter those whose name starts with ‘A’
         * Are at least 18 years old
         * Then collect the names into a list.*/

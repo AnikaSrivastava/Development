@@ -1,3 +1,5 @@
+package demo;
+
 import java.util.List;
 
 public class Transaction {
@@ -41,7 +43,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "Transaction{" +
+        return "demo.Transaction{" +
                 "type='" + type + '\'' +
                 ", amount=" + amount +
                 '}';
