@@ -1,3 +1,5 @@
+package demo;
+
 import java.util.List;
 
 public class Person {
@@ -42,6 +44,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person " + name + " " + age;
+        return "demo.Person " + name + " " + age;
     }
 }
