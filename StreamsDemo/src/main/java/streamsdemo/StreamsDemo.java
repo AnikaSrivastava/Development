@@ -1,4 +1,4 @@
-package demo;
+package streamsdemo;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -30,7 +30,17 @@ public class StreamsDemo {
         /*13. Infinite Streams
         Write a stream pipeline that generates the Fibonacci
         sequence and prints the first 10 numbers.*/
+        streamErr();
 
+    }
+
+    private static void streamErr() {
+        List<String> list = Arrays.asList("Dhoni", "Kholi", "Rohit");
+        String result = list.stream()
+                .filter(s-> s.equalsIgnoreCase("Gill"))
+                .findAny()
+                .get();
+        System.err.println(result);
     }
 
 

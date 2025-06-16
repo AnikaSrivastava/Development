@@ -1,4 +1,4 @@
-package demo;
+package streamsdemo;
 
 import java.util.List;
 
