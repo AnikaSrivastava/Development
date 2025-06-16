@@ -1,6 +1,4 @@
-package demo;
-
-import java.util.Set;
+package streamsdemo;
 
 /**Given a list of file paths (as List<String>),
 read all lines from these files and collect all

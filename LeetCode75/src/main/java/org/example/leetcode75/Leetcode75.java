@@ -1,7 +1,6 @@
-package demo;
+package org.example.leetcode75;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
@@ -13,6 +12,7 @@ public class Leetcode75 {
        gcdOfStrings("ABCABC", "ABC");
        reverseVowels("IceCreAm");
        System.out.printf(reverseVowels("IceCreAm"));
+
 
     }
 
